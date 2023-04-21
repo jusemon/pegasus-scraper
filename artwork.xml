@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is the default artwork.xml provided by Skyscraper. -->
+<artwork>
+  <!-- This is the screenshot, saved as a screenshot, with proper size. -->
+  <output type="screenshot"  width="320"/>
+  <!-- This is the wheel art, saved as a wheel, with proper size. -->
+  <output type="wheel" width="160"/>
+  <!-- This is the boxart, saved as a cover, with proper size. -->
+  <output type="cover" height="120"/>
+  <!-- This is the Steam Tile image, saved as a marquee -->
+  <output type="marquee" width="168" height="82">
+    <layer resource="screenshot" width="168" align="center" valign="middle">
+    </layer>
+    <layer resource="wheel" width="148" height="72" align="center" valign="middle">
+      <shadow distance="5" softness="5" opacity="70"/>
+    </layer>
+  </output>
+</artwork>

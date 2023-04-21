@@ -10,7 +10,7 @@ Download termux from fdroid and paste the following commands:
 
 termux-setup-storage,  answer yes when prompted.
 
-curl -O -L https://github.com/Pipetto-crypto/pegasus-scraper/raw/master/installer.sh && source installer.sh
+curl -O -L https://github.com/jusemon/pegasus-scraper/raw/master/installer.sh && source installer.sh
 
 Type pegasus-config everytime you want to scrape new games.
 

@@ -229,7 +229,7 @@ do
 	elif test "$opt" == "6";
 	then
 		rm -rf configurator.sh
-		wget -L https://raw.githubusercontent.com/Pipetto-crypto/pegasus-scraper/master/configurator.sh
+		wget -L https://raw.githubusercontent.com/jusemon/pegasus-scraper/master/configurator.sh
 		chmod a+x configurator.sh
 		mv configurator.sh $PATH/pegasus-config
 		echo -e "\nUpdated, now exiting"
